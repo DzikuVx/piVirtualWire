@@ -27,7 +27,7 @@ This has been tested with FS1000A sender and XY-MK-5V receiver. Communication ov
 
 ```
 pi = pigpio.pi()
-tx = virtualwire.tx(pi, 4, 1000) # Set pigpio instance, TX module GPIO pin and baud rate
+tx = piVirtualwire.tx(pi, 4, 1000) # Set pigpio instance, TX module GPIO pin and baud rate
 
 msg = 42
 
