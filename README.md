@@ -13,7 +13,11 @@ pigpio has to be running as a service. To start:
 `sudo /home/pi/PIGPIO/pigpiod`
 
 ##Hardware
-This has been tested with FS1000A sender and XY-MK-5V receiver. Communication over Virtual Wire was successful with Arduino Uno and Arduino Pro Micro.
+This has been tested with:
+* FS1000A transmitter and XY-MK-5V receiver.
+* MX-FS-03V transmitter and MX-05V receiver
+
+Communication over Virtual Wire was successful with Arduino Uno and Arduino Pro Micro.
 
 # Example usage
 
