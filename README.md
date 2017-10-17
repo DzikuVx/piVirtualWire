@@ -33,7 +33,7 @@ import pigpio
 pi = pigpio.pi()
 tx = piVirtualwire.tx(pi, 4, 1000) # Set pigpio instance, TX module GPIO pin and baud rate
 
-msg = 42
+msg = "42"
 
 tx.put(msg)
 tx.waitForReady()
